@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "JPTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "JPTableViewCell")
+        tableView.register(UINib(nibName: "JPListTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "JPListTableViewCell")
         tableView.tableFooterView = UIView()
         tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableView.automaticDimension
@@ -56,7 +56,7 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "JPTableViewCell", for: indexPath) as? JPTableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "JPListTableViewCell", for: indexPath) as? JPListTableViewCell {
             cell.configure(objectArray[indexPath.row])
             return cell
         }
@@ -67,6 +67,9 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+        
+        
     }
+    
 }
 

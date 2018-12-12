@@ -43,5 +43,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="BLB-m7-gy2">
+            <objects>
+                <viewController storyboardIdentifier="JPDetailViewController" id="IIX-Rb-uXf" customClass="JPDetailViewController" customModule="JSONParsing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v4v-2J-7sA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ih6-eX-DCY">
+                                <rect key="frame" x="112.5" y="53" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Qby-ke-FzP"/>
+                                    <constraint firstAttribute="width" constant="150" id="tg0-rz-HAu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ih6-eX-DCY" firstAttribute="top" secondItem="gTZ-k7-dMy" secondAttribute="top" constant="33" id="BBu-9Z-0Mb"/>
+                            <constraint firstItem="Ih6-eX-DCY" firstAttribute="centerX" secondItem="v4v-2J-7sA" secondAttribute="centerX" id="Ywj-oX-m7K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gTZ-k7-dMy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gOX-eO-glc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-177" y="319"/>
+        </scene>
     </scenes>
 </document>
