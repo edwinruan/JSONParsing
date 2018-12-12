@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CF84B3AB21C0A73800C151B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3AA21C0A73800C151B1 /* AppDelegate.swift */; };
-		CF84B3AD21C0A73800C151B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3AC21C0A73800C151B1 /* ViewController.swift */; };
 		CF84B3B021C0A73800C151B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF84B3AE21C0A73800C151B1 /* Main.storyboard */; };
 		CF84B3B221C0A73900C151B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF84B3B121C0A73900C151B1 /* Assets.xcassets */; };
 		CF84B3B521C0A73900C151B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF84B3B321C0A73900C151B1 /* LaunchScreen.storyboard */; };
@@ -17,11 +16,10 @@
 		CF84B3D921C0A92000C151B1 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CF84B3D821C0A92000C151B1 /* data.json */; };
 		CF84B3DB21C0A99B00C151B1 /* JPObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3DA21C0A99B00C151B1 /* JPObjectModel.swift */; };
 		CF84B3DD21C0ABE700C151B1 /* JPHelpert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3DC21C0ABE700C151B1 /* JPHelpert.swift */; };
-		CF84B3E021C0B95C00C151B1 /* JPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3DE21C0B95C00C151B1 /* JPTableViewCell.swift */; };
-		CF84B3E121C0B95C00C151B1 /* JPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF84B3DF21C0B95C00C151B1 /* JPTableViewCell.xib */; };
 		CF84B3E321C1A9E900C151B1 /* JPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3E221C1A9E900C151B1 /* JPDetailViewController.swift */; };
 		CF84B3E621C1AB0800C151B1 /* JPListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3E421C1AB0800C151B1 /* JPListTableViewCell.swift */; };
 		CF84B3E721C1AB0800C151B1 /* JPListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF84B3E521C1AB0800C151B1 /* JPListTableViewCell.xib */; };
+		CF84B3E921C1B53700C151B1 /* JPListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84B3E821C1B53700C151B1 /* JPListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +42,6 @@
 /* Begin PBXFileReference section */
 		CF84B3A721C0A73800C151B1 /* JSONParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF84B3AA21C0A73800C151B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF84B3AC21C0A73800C151B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF84B3AF21C0A73800C151B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF84B3B121C0A73900C151B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF84B3B421C0A73900C151B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +55,10 @@
 		CF84B3D821C0A92000C151B1 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CF84B3DA21C0A99B00C151B1 /* JPObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPObjectModel.swift; sourceTree = "<group>"; };
 		CF84B3DC21C0ABE700C151B1 /* JPHelpert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPHelpert.swift; sourceTree = "<group>"; };
-		CF84B3DE21C0B95C00C151B1 /* JPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTableViewCell.swift; sourceTree = "<group>"; };
-		CF84B3DF21C0B95C00C151B1 /* JPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPTableViewCell.xib; sourceTree = "<group>"; };
 		CF84B3E221C1A9E900C151B1 /* JPDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPDetailViewController.swift; sourceTree = "<group>"; };
 		CF84B3E421C1AB0800C151B1 /* JPListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPListTableViewCell.swift; sourceTree = "<group>"; };
 		CF84B3E521C1AB0800C151B1 /* JPListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPListTableViewCell.xib; sourceTree = "<group>"; };
+		CF84B3E821C1B53700C151B1 /* JPListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				CF84B3AA21C0A73800C151B1 /* AppDelegate.swift */,
-				CF84B3AC21C0A73800C151B1 /* ViewController.swift */,
+				CF84B3E821C1B53700C151B1 /* JPListViewController.swift */,
 				CF84B3E221C1A9E900C151B1 /* JPDetailViewController.swift */,
 				CF84B3D821C0A92000C151B1 /* data.json */,
 				CF84B3DA21C0A99B00C151B1 /* JPObjectModel.swift */,
 				CF84B3DC21C0ABE700C151B1 /* JPHelpert.swift */,
 				CF84B3AE21C0A73800C151B1 /* Main.storyboard */,
-				CF84B3DE21C0B95C00C151B1 /* JPTableViewCell.swift */,
-				CF84B3DF21C0B95C00C151B1 /* JPTableViewCell.xib */,
 				CF84B3E421C1AB0800C151B1 /* JPListTableViewCell.swift */,
 				CF84B3E521C1AB0800C151B1 /* JPListTableViewCell.xib */,
 				CF84B3B121C0A73900C151B1 /* Assets.xcassets */,
@@ -258,7 +252,6 @@
 				CF84B3B021C0A73800C151B1 /* Main.storyboard in Resources */,
 				CF84B3E721C1AB0800C151B1 /* JPListTableViewCell.xib in Resources */,
 				CF84B3D921C0A92000C151B1 /* data.json in Resources */,
-				CF84B3E121C0B95C00C151B1 /* JPTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF84B3E021C0B95C00C151B1 /* JPTableViewCell.swift in Sources */,
-				CF84B3AD21C0A73800C151B1 /* ViewController.swift in Sources */,
 				CF84B3DB21C0A99B00C151B1 /* JPObjectModel.swift in Sources */,
 				CF84B3E321C1A9E900C151B1 /* JPDetailViewController.swift in Sources */,
 				CF84B3AB21C0A73800C151B1 /* AppDelegate.swift in Sources */,
+				CF84B3E921C1B53700C151B1 /* JPListViewController.swift in Sources */,
 				CF84B3DD21C0ABE700C151B1 /* JPHelpert.swift in Sources */,
 				CF84B3E621C1AB0800C151B1 /* JPListTableViewCell.swift in Sources */,
 			);

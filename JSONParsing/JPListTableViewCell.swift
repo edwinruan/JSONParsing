@@ -39,4 +39,5 @@ class JPListTableViewCell: UITableViewCell {
                 }
             }
         }
+    }
 }
