@@ -48,12 +48,17 @@ class JPDetailViewController: UIViewController {
     
     func configureView() {
         if let object = objectModel {
-            nameLabel.text = object.name
+            let subTypeValue = object.name ?? " "
+            nameLabel.text = "Subtype: " + subTypeValue
             if let detail = object.objectDetail {
                 hiddenLabelIfNoData()
                 titleLabel.text = detail.objectSummary?.name
-                typeLabel.text = detail.objectSummary?.type
-                colorLabel.text = detail.objectSummary?.color
+                
+                let typeValue = detail.objectSummary?.type ?? " "
+                typeLabel.text = "Type: " + typeValue
+                
+                let colorValue = detail.objectSummary?.color ?? " "
+                colorLabel.text = "Color: " + colorValue
                 descriptionLabel.text = detail.objectSummary?.description
                 
                 // Optional fields
